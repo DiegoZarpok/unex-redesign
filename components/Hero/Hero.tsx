@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import { TeamCarousel } from "@/components/TeamCarousel/TeamCarousel";
 
 export function Hero() {
   return (
@@ -46,11 +47,8 @@ export function Hero() {
           initial={{ opacity: 0, scale: 0.95 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.6, delay: 0.2 }}
-          className="bg-blue-100 rounded-3xl aspect-square md:aspect-[4/3] flex items-center justify-center"
         >
-          <span className="text-blue-400 text-sm">
-            [ imagem/ilustração institucional ]
-          </span>
+        <TeamCarousel />
         </motion.div>
       </div>
     </section>
