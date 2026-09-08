@@ -5,6 +5,7 @@ import { Courses } from "@/components/Courses/Courses";
 import { Testimonials } from "@/components/Testimonials/Testimonials";
 import { Campuses } from "@/components/Campuses/Campuses";
 import { News } from "@/components/News/News";
+import { ContactForm } from "@/components/ContactForm/ContactForm";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Testimonials />
       <Campuses />
       <News />
+      <ContactForm />
     </main>
   );
 }
