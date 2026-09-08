@@ -27,3 +27,8 @@
 ## Componentização planejada
 
 Cada seção acima corresponde a uma pasta em `components/`, mantendo 1:1 entre wireframe e código.
+
+
+## Seção adicional — Carrossel pessoal (marca do projeto)
+
+Carrossel discreto entre Hero e About, com foto + frase curta por slide (ex: "Projeto desenvolvido pela matéria de Inteligência Artificial", "Quer aprender a desenvolver? Faça um curso na FTC"). Navegação por setas + autoplay de 10s. Visual limpo, sem sobrepor o header.
